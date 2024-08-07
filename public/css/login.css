@@ -1,0 +1,27 @@
+*{
+    margin:"0";
+    padding:"0";
+}
+
+.gradient-custom-2 {
+    background: #091540;
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
+
+    .btn-custom {
+        --bs-btn-padding-y: .25rem; 
+        --bs-btn-padding-x: .5rem; 
+        --bs-btn-font-size: .75rem;
+        width: 150px;
+    }
